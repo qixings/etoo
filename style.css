@@ -1,0 +1,327 @@
+/* General Styles */
+body {
+    font-family: bebas neue;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #ffffff;
+  }
+  
+  /* Top Bar with Logo and Location */
+  .top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff; /* Themed Color */
+    padding: 10px 20px;
+    color: rgb(255, 0, 0);
+    width: 350px;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 80px;
+    height: auto;
+    margin-right: 10px;
+  }
+  
+  .brand-name {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .location-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .location-container img {
+    width: 20px;
+    height: auto;
+    margin-left: 10px;
+  }
+  
+  /* Promo Banner */
+  .promo-banner {
+    text-align: center;
+    padding: 20px;
+    background-color: #ff2239;
+    border-radius: 10px;
+  }
+  
+  .promo-banner img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .promo-banner h2 {
+    font-size: 22px;
+    color: #f2ff00;
+    margin: 10px 0;
+  }
+  
+  .promo-banner p {
+    font-size: 16px;
+    color: #ffffff;
+  }
+  
+  .btn-offer {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+  /* Categories Section */
+  .categories {
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  .categories h3 {
+    font-size: 18px;
+    color: #333;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  
+  .category-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .category-item {
+    width: 48%;
+    margin-bottom: 20px;
+    background: #eeeeee;
+    border-radius: 10px;
+  }
+  
+  .category-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .category-item p {
+    font-size: 16px;
+    color: #000;
+    text-align: center;
+    margin-top: 8px;
+  
+  }
+  .category-item a {
+    text-decoration: none;
+  }
+  
+  /* Featured Items Section */
+  .featured-items {
+    padding: 20px;
+    background-color: #ffffff;
+    margin-bottom: 65px;
+  }
+  
+  .featured-items h3 {
+    font-size: 18px;
+    color: #333;
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  
+  .item-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .item-card {
+    width: 48%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .item-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .item-info {
+    margin-top: 8px;
+  }
+  
+  .item-info h4 {
+    font-size: 16px;
+    color: #000;
+  }
+  
+  .item-info p {
+    font-size: 14px;
+    color: #ff4500;
+  }
+  
+  /* Bottom Navigation Bar */
+  .bottom-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    max-width: 390px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    filter: drop-shadow(0px 3px 11px rgb(169, 167, 167));
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .bottom-nav a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: #383737;
+    font-size: 12px;
+  }
+  
+  .bottom-nav a img {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 5px;
+  }
+  
+  .bottom-nav .active {
+    color: #ff2239;
+  }
+  
+
+  /* General Styles for FontAwesome Icons */
+.bottom-nav a .fas {
+  font-size: 20px; /* Set icon size */
+  color: #fe8800;     /* Default icon color */
+  margin-bottom: 5px; /* Add spacing between icon and label */
+}
+
+/* Style for Active Link Icon */
+.bottom-nav a.active .fas {
+  color: #ff2239;  /* Change color for the active link */
+  font-size: 20px; /* Make the active icon slightly larger */
+}
+
+/* Hover Effect for Icons */
+.bottom-nav a:hover .fas {
+  color: #ff4500;  /* Change color on hover */
+}
+
+/* To adjust icon spacing (optional) */
+.bottom-nav a {
+  padding: 10px;
+}
+
+.fa-location{
+
+  margin-left: 10px;
+}
+
+
+
+
+
+h1, h2, h3, h4, .promo-banner h2 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: normal; /* No bold needed, as Bebas Neue is naturally bold */
+  font-size: 28px; /* Adjust based on your design needs */
+
+  text-transform: uppercase; /* Make headings all-caps if desired */
+  letter-spacing: 0.5px; /* Add spacing for a modern look */
+}
+
+/* Promo Banner with Horizontal Scrolling */
+.promo-banner {
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+.promo-banner h2 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 24px;
+  color: #000;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Offers Container for Horizontal Scrolling */
+.offers-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  gap: 10px; /* Space between cards */
+  padding-bottom: 10px; /* Add some padding to bottom for visual balance */
+  scrollbar-width: none; /* Hide scrollbar in Firefox */
+}
+
+.offers-container::-webkit-scrollbar {
+  display: none; /* Hide scrollbar in Webkit browsers */
+}
+
+.offer-card {
+  min-width: 85%; /* Make cards smaller so next card is visible */
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  scroll-snap-align: start;
+  flex: none;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.offer-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.offer-card h3 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 18px;
+  color: #ff4500;
+}
+
+.offer-card p {
+  font-size: 14px;
+  color: #333;
+  margin: 10px 0;
+}
+
+.btn-offer {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #ff2239;
+  color: #fff;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 14px;
+  text-transform: uppercase;
+}
