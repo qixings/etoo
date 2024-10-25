@@ -58,12 +58,14 @@ body {
   
   /* Promo Banner */
   .promo-banner {
-    text-align: center;
+   text-align: center;
     padding: 20px;
     background-color: #ff2239;
     border-radius: 10px;
+
+    margin-top: 125px;
     width: 100%;
-    max-width: 390px;
+    max-width: 360px;
   }
   
   .promo-banner img {
