@@ -25,7 +25,6 @@ body {
     color: rgb(255, 0, 0);
     width: 100%;
     max-width: 390px;
-      position:fixed;
   }
   
   .logo-container {
@@ -61,6 +60,8 @@ body {
     padding: 20px;
     background-color: #ff2239;
     border-radius: 10px;
+    width: 100%;
+    max-width: 390px;
   }
   
   .promo-banner img {
@@ -300,6 +301,7 @@ h1, h2, h3, h4, .promo-banner h2 {
 
 .offer-card img {
   width: 100%;
+  max-width: 390px;
   height: auto;
   border-radius: 10px;
   margin-bottom: 15px;
