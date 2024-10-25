@@ -193,7 +193,7 @@ body {
     position: fixed;
     bottom: 0;
     width: 100%;
-    max-width: 390px;
+    max-width: 400px;
     background-color: #ffffff;
     display: flex;
     justify-content: space-around;
