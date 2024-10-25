@@ -213,6 +213,8 @@ body {
     text-decoration: none;
     color: #383737;
     font-size: 12px;
+    font-family: sans-serif;
+    font-weight: bold;
   }
   
   .bottom-nav a img {
@@ -298,7 +300,7 @@ h1, h2, h3, h4, .promo-banner h2 {
     max-width: 265px;
     background-color: #f1f1f1;
     border-radius: 10px;
-    padding: 20px;
+    padding: 20px 5px;
     text-align: center;
     scroll-snap-align: start;
     flex: none;
@@ -315,23 +317,25 @@ h1, h2, h3, h4, .promo-banner h2 {
 
 .offer-card h3 {
   font-family: 'Bebas Neue', sans-serif;
-  font-size: 18px;
+  font-size: 27px;
   color: #ff4500;
+  margin: 0px;
 }
 
 .offer-card p {
   font-size: 14px;
   color: #333;
   margin: 10px 0;
+    font-family: sans-serif;
 }
 
 .btn-offer {
-  display: inline-block;
-  padding: 10px 15px;
-  background-color: #ff2239;
-  color: #fff;
-  border-radius: 25px;
-  text-decoration: none;
-  font-size: 14px;
-  text-transform: uppercase;
+ display: inline-block;
+    padding: 10px 15px;
+    background-color: #030303;
+    color: #fff;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: sans------------p8-serif;
 }
