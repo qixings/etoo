@@ -23,7 +23,9 @@ body {
     background-color: #ffffff; /* Themed Color */
     padding: 10px 20px;
     color: rgb(255, 0, 0);
-    width: 350px;
+    width: 100%;
+    max-width: 390px;
+      position:fixed;
   }
   
   .logo-container {
