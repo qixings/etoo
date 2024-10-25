@@ -65,8 +65,8 @@ body {
     border-radius: 10px;
 
     margin-top: 125px;
-    width: 100%;
-    max-width: 350px;
+        width: 100%;
+    max-width: 315px;
   }
   
   .promo-banner img {
@@ -293,14 +293,15 @@ h1, h2, h3, h4, .promo-banner h2 {
 }
 
 .offer-card {
-  min-width: 85%; /* Make cards smaller so next card is visible */
-  background-color: #f1f1f1;
-  border-radius: 10px;
-  padding: 20px;
-  text-align: center;
-  scroll-snap-align: start;
-  flex: none;
-  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+     width: 75%;
+    max-width: 244px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    scroll-snap-align: start;
+    flex: none;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
 }
 
 .offer-card img {
